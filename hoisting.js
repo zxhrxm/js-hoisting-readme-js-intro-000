@@ -7,13 +7,12 @@ function callMe() {
   return lyric;
 }
 
-thisIsCrazy();
-
 function crazy() {
   var thisIsCrazy = function (){
       return(console.log("hey!!!"))
   }
 }
+thisIsCrazy();
 
 function sayMyName() {
   // fix the code in here:
