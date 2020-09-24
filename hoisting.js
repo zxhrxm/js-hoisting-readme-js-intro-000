@@ -9,8 +9,8 @@ function callMe() {
 
 function crazy() {
   var thisIsCrazy = function (){
+    thisIsCrazy();
       return(console.log("hey!!!"))
-thisIsCrazy();
   }
 }
 
